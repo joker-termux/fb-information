@@ -63,7 +63,7 @@ def baliho():
 		print 'ooO--(_)--Ooo'.center(44)
 		print ' ' + W
 		print ('O S I F').center(44)
-		print (W + '     [' + G +'joker fb Information'+ W + ']')
+		print (W + '         [' + G +'joker fb Information'+ W + ']')
 		print ' '
 ####################################################################
 #		    Print In terminal
@@ -74,7 +74,7 @@ def show_program():
  ------------------------------------------------------
 
     Author     Debby Anggraini 'joker-termux'
-    Name       OSIF 'Open Source Information Facebook'
+    Name       OSIF 'joker fb information'
     CodeName   joker
     version    full version
     Date       19/07/2020 10:6:12
@@ -486,7 +486,7 @@ def menu_reaction_ask():
   try:
 	global type
 
-	cek = raw_input(R + 'D3b2y' + W + '/' + R + 'Bot' + W + '/' + R + 'Reaction' + W + ' >> ')
+	cek = raw_input(R + 'joker' + W + '/' + R + 'Bot' + W + '/' + R + 'Reaction' + W + ' >> ')
 
 	if cek in ['1','01']:
 		type = 'LIKE'
@@ -568,7 +568,7 @@ def bot():
   try:
 	global type , message , id , WT , token
 
-	cek = raw_input(R + 'D3b2y' + W +'/' + R +'Bot ' + W + '>> ')
+	cek = raw_input(R + 'joker' + W +'/' + R +'Bot ' + W + '>> ')
 
 	if cek in ['1','01']:
 		menu_reaction()
@@ -921,7 +921,7 @@ def main():
   global target_id
 
   try:
-	cek = raw_input(R + 'D3b2y' + W +' >> ')
+	cek = raw_input(R + 'joker' + W +' >> ')
 
 	if cek.lower() == 'get_data':
 		if len(jml) == 0:
