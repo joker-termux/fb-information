@@ -63,7 +63,7 @@ def baliho():
 		print 'ooO--(_)--Ooo'.center(44)
 		print ' ' + W
 		print ('O S I F').center(44)
-		print (W + '     [' + G +'Open Source Information Facebook'+ W + ']')
+		print (W + '     [' + G +'joker fb Information'+ W + ']')
 		print ' '
 ####################################################################
 #		    Print In terminal
